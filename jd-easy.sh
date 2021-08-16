@@ -21,3 +21,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io;
 # 添加hosts
 sudo su;
 echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts
+
+
+# 执行jd-bash.sh
+wget -q https://raw.githubusercontent.com/Coolrui1816/GJ200/mb/jd-base.sh -O jd-bash.sh && chmod +x jd-bash.sh && ./jd-bash.sh
+# 搭建成功后访问： http://ip:5678  账号密码: admin/shuye72
+# 可手动执行脚本进行测试
