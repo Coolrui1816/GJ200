@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*
 
 '''
-cron: 0 59 23 * * 0 jd_15.py
+0 59 23 * * * jd_15.py
+cron "0 59 23 * * *" 
 new Env('Faker群友家电15周年助力');
 '''
 
