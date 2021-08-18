@@ -5,7 +5,7 @@ containers: #容器，可配置多个
     password: admin #密码
     weigth: #权重 balance模式下权重越高分得的ck越多,默认1
     mode: parallel #单独对容器进行模式设置
-    limit: 9999 #限制容器ck数目
+    limit: 56 #限制容器ck数目
 # - address: http://192.168.31.233:5700 #多容器自己配好，单容器就删掉下面3条
 #   username: admin #用户名
 #   password: admin #密码
@@ -14,10 +14,15 @@ containers: #容器，可配置多个
 theme: https://ghproxy.com/https://raw.githubusercontent.com/cdle/jd_study/main/xdd/theme/noodin.html #自定义主题，支持本地、网络路径（我喜欢吃面）
 static: ./static  #静态文件 便于自定义二维码页面时，引入css、js等文件（不用动）
 master: #jd_xxxxx #管理员账户pin，有多个用'&'拼接
-database: ql/db/.jdc.db  #数据库位置，默认./.jdc.db #（青龙填env.db文件路径，第一次部署就默认吧，改了麻烦）
+database: ql/db/.xdd.db  #数据库位置，默认./.jdc.db #（青龙填env.db文件路径，第一次部署就默认吧，改了麻烦）
 qywx_key: #企业微信推送key（这个就是企业微信机器人的key）
 daily_push: #定时任务（这个我暂时没有配置）
 resident: #均衡模式下所有容器共同的账号pin，有多个用'&'拼接。不建议填写，后续实现指定账号助力功能。（这个我也没配置，多容器自己试试）
+#数据库 支持sqlite3、mysql和postgres
+#sqlite3: ql/.xdd #填路径，默认 ./.xdd
+#mysql: user:pass@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local
+#postgres: host=localhost user=gorm password=gorm dbname=gorm port=9920 sslmode=disable TimeZone=Asia/Shanghai
+
 
 #自定义ua
 user_agent:
