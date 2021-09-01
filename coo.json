@@ -7,7 +7,6 @@
 	    {"config":"2 9 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_big_winner.js, tag=发财大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
 	    {"config":"20 0-23/3 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_jxmc.js, tag=京喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"},
 	    {"config":"21 9 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=MM领京豆, enabled=true"},
-    	{"config":"30 0,23 * * * https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_dpqd_diy.js, tag=店铺签到diy, enabled=true"},
 	    {"config":"0,1,2 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js, tag=京东领现金兑换10元红包, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/moyushouji.png, enabled=true"},
 	    {"config":"0 9 * * * https://ghproxy.com/https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=自动同步京东ck到青龙面板（boxjs中填写账号密码）, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/ql.png, enabled=true"},
 	    {"config":"10 0 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_jin_tie.js, tag=京东领金贴, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
