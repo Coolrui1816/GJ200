@@ -3,7 +3,6 @@
     "description": "9/1更",
     "task": [
     	{"config":"5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true"},
-	    {"config":"1 0-23/2 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_qqxing.js, tag=星系牧场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
 	    {"config":"2 9 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_big_winner.js, tag=发财大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
 	    {"config":"20 0-23/3 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_jxmc.js, tag=京喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"},
 	    {"config":"21 9 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=MM领京豆, enabled=true"},
