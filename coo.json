@@ -1,6 +1,6 @@
 {
     "name": "🐶集合",
-    "description": "8/31更",
+    "description": "9/1更",
     "task": [
     	{"config":"5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true"},
     	{"config":"21 9 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=MM领京豆, enabled=true"},
@@ -14,7 +14,7 @@
 	    {"config":"0 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"},
 	    {"config":"0 1 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到（配合boxjs使用）, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/airport.png, enabled=true"},
 	    {"config":"11 0 * * 1 https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_deleteCoupon.js, tag=京东删除优惠券, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"},
-	    {"config":"0 * * * * https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jx_cfd.js, tag=京喜财富岛, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"},
+	    {"config":"18 0-23/2 * * * https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker2/main/gua_wealth_island.js, tag=京喜财富大陆, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"},
 	    {"config":"2 9 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_bean_change.js, tag=京豆变动通知, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
 		{"config":"10 7 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
 		{"config":"0 0 0 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_blueCoin.js, tag=东东超市兑换奖品, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true"},
@@ -26,7 +26,6 @@
 		{"config":"5 6-18/6 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_fruit.js, tag=东东农场, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"},
 		{"config":"0 9,12,20,21 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_global_mh.js, tag=京东国际盲盒, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
 		{"config":"10 * * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_jdfactory.js, tag=东东工厂, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true"},
-		{"config":"10 0 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_jdzz.js, tag=京东赚赚, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true"},
 		{"config":"15 0-23/2 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_joy.js, tag=京东宠汪汪, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"},
 		{"config":"15 0-23/1 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"},
 		{"config":"0 0-16/8 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_joy_reward.js, tag=京东宠汪汪积分兑换奖品, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"},
@@ -36,7 +35,6 @@
 		{"config":"10 0 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_kd.js, tag=京东快递签到, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true"},
 		{"config":"3 0-23/2 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_moneyTree.js, tag=京东摇钱树, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png, enabled=true"},
 		{"config":"10 7 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_ms.js, tag=京东秒秒币, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"},
-		{"config":"10 0,20 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_necklace.js, tag=京东点点券, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
 		{"config":"15 6-18/6 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_pet.js, tag=京东东东萌宠, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png, enabled=true"},
 		{"config":"12 * * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_pigPet.js, tag=京东金融养猪猪, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdyz.png, enabled=true"},
 		{"config":"1 7-21/2 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_plantBean.js, tag=京东种豆得豆, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"},
@@ -52,7 +50,6 @@
 		{"config":"55 23 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
 		{"config":"30 7 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_xgyl.js, tag=小鸽有礼2, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jd_xgyl.png, enabled=true"},
 		{"config":"5 0 * * * https://raw.githubusercontent.com/Annyoo2021/scripts/main/jx_sign.js, tag=京东京喜签到, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/pic/lxk0301.png, enabled=true"},
-		{"config":"5 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
 		{"config":"0 9 * * * https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jdzz.js, tag=京东赚赚, img-url=https://ghproxy.com/https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true"},
 		{"config":"11 1 * * * https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_lotteryMachine.js, tag=京东抽奖机, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=false"},
 		{"config":"11 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/scripts/main/jd_rankingList.js, tag=京东排行榜, img-url=https://ghproxy.com/https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=false"}
