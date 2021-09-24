@@ -105,7 +105,7 @@ function PostRequest(uri,body) {
 "Origin": "https://h5.m.jd.com",
 "Cookie": cookie,
 "Host": "api.m.jd.com",
-"User-Agent": "jdapp;iPhone;10.1.0;13.4;2f605b48976086550160aaee42cf2b4c8ba50eed;network/wifi;model/iPhone10,3;addressid/3190732591;appBuild/167774;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
+"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.9(0x18000931) NetType/WIFI Language/zh_CN"
 }
   return {url: url, method: method, headers: headers, body: body};
 }
