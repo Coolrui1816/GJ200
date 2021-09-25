@@ -22,7 +22,7 @@ if(text("去完成").exists()){
         if (textMatches(/.*[0-11]S.*/).exists() && textMatches(/.*[0-11]S.*/).findOnce().parent().child(8).text() == "去完成") {
             console.info("开始浏览任务");
             textMatches(/.*[0-11]S.*/).findOnce().parent().child(8).click();
-            sleep(12000);
+            sleep(16000);
             console.log("任务完成");
         } else if (textContains("加购").exists() && textContains("加购").findOnce().parent().child(8).text() == "去完成") {
             console.info("开始加购任务");
@@ -39,7 +39,7 @@ if(text("去完成").exists()){
         } else if (textContains("浏览").exists() && textContains("浏览").findOnce().parent().child(8).text() == "去完成") {
             console.info("开始浏览任务");
             textContains("浏览").findOnce().parent().child(8).click();
-            sleep(12000);
+            sleep(16000);
             console.log("浏览完成，返回");
         } else if (textStartsWith("成功关注").exists() && textStartsWith("成功关注").findOnce().parent().child(8).text() == "去完成") {
             console.info("开始关注任务");
