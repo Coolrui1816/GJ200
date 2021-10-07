@@ -6,9 +6,9 @@
 #功能：
 #Date: 2021/6/6 上午7:57
 #建议cron: 
-0 9 * * *  python3 jd_getFollowGift.py
+#0 9 * * *  python3 jd_getFollowGift.py
 #new Env('关注有礼');
-'''
+#'''
 ##################################
 #cookie填写，注意：#ck 优先读取【JDCookies.txt】 文件内的ck  再到 ENV的 变量 JD_COOKIE='ck1&ck2' 最后才到脚本内 cookies=ck
 cookies = ''
@@ -29,7 +29,7 @@ QYWX_AM = ''
 
 #######################################
 version = 'v1.0.0 Beta'
-readmes = """
+readmes = ""
 # JD 关注有礼
 
 ##  目录结构
@@ -43,37 +43,37 @@ readmes = """
 
 
 ### `【兼容环境】`
-    1.Python3.6+ 环境
-    2.兼容ios设备软件：Pythonista 3、Pyto(已测试正常跑，其他软件自行测试)   
-    3.Windows exe 
+#    1.Python3.6+ 环境
+#    2.兼容ios设备软件：Pythonista 3、Pyto(已测试正常跑，其他软件自行测试)   
+#    3.Windows exe 
 
-    安装依赖模块 :
-    pip3 install requests
-    执行：
-    python3 jd_getFollowGift.py
+#    安装依赖模块 :
+#    pip3 install requests
+#    执行：
+#    python3 jd_getFollowGift.py
 
 
 ## `【更新记录】`
-    2021.6.6：（v1.0.0 Beta）
-        * Test
+ #   2021.6.6：（v1.0.0 Beta）
+ #       * Test
 
 
 ###### [GitHub仓库 https://github.com/curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) 
 ###### [TG频道 https://t.me/TopStyle2021](https://t.me/TopStyle2021)
 ###### [TG群 https://t.me/topStyle996](https://t.me/topStyle996)
 ###### 关注公众号【TopStyle】
-![TopStyle](https://gitee.com/curtinlv/img/raw/master/gzhcode.jpg)
+#![TopStyle](https://gitee.com/curtinlv/img/raw/master/gzhcode.jpg)
 # 
-    @Last Version: %s
+#    @Last Version: %s
 
-    @Last Time: 2021-06-06 07:57
+#    @Last Time: 2021-06-06 07:57
 
-    @Author: Curtin
+#    @Author: Curtin
 #### **仅以学习交流为主，请勿商业用途、禁止违反国家法律 ，转载请留个名字，谢谢!** 
 
 # End.
 [回到顶部](#readme)
-""" % version
+"" % version
 
 ################################ 【Main】################################
 import time, os, sys, datetime
@@ -86,7 +86,7 @@ pwd = os.path.dirname(os.path.abspath(__file__)) + os.sep
 
 # 定义一些要用到参数
 requests.packages.urllib3.disable_warnings()
-scriptHeader = """
+scriptHeader = ""
 
 
 ════════════════════════════════════════
@@ -94,7 +94,7 @@ scriptHeader = """
 ║      JD   关   注   有   礼           ║
 ║                                      ║
 ════════════════════════════════════════
-@Version: {}""".format(version)
+@Version: {}"".format(version)
 remarks = '\n\n\tTG交流 : https://t.me/topstyle996\n\n\tTG频道 : https://t.me/TopStyle2021\n\n\t公众号 : TopStyle\n\n\t\t\t--By Curtin\n'
 ######JD Cookie (多账号&分隔)
 
