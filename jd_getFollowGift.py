@@ -33,13 +33,13 @@ readmes = ""
 # JD 关注有礼
 
 ##  目录结构
-    JD-Script/                  #主仓库
-    |-- getFollowGifts                # 主目录
-    |   |-- jd_getFollowGift.py       # 主代码 （必要）
-    |   |-- JDCookies.txt             # 存放JD cookie，一行一个ck
-    |   |-- Readme.md                 # 说明书
-    |   `-- start.sh                  # shell脚本（非必要）
-    `-- README.md
+#    JD-Script/                  #主仓库
+#    |-- getFollowGifts                # 主目录
+#    |   |-- jd_getFollowGift.py       # 主代码 （必要）
+#    |   |-- JDCookies.txt             # 存放JD cookie，一行一个ck
+#    |   |-- Readme.md                 # 说明书
+#    |   `-- start.sh                  # shell脚本（非必要）
+#    `-- README.md
 
 
 ### `【兼容环境】`
