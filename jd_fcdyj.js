@@ -86,7 +86,7 @@ const JD_API_HOST = `https://api.m.jd.com`;
             }
         }
     }
-    if (new Date().getHours() >= 10) {
+    if (new Date().getHours() >= 23) {
         await getAuthorShareCode()
         if ($.authorCode && $.authorCode.length) {
             for (let i = 0; i < cookiesArr.length; i++) {
