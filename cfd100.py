@@ -18,8 +18,8 @@ except ImportError:
 		
 # 请定时为59秒，程序会自动计算延迟时间
 # 这里填cookie
-var cookie = jx100cookie
-#cookie = "pt_pin=18740209378_p; pt_key=AAJhe6fsADAcU6BV5MMo_HY6DLhqyV04yqsZL-iXGneiLJxTPyXct_kqButvdjYwvwykMpmXj7M;"
+#var cookie = jx100cookie
+cookie = "pt_pin=jd_7ccee9515a76d; pt_key=AAJhb7g2ADChob5jvRwKceZTBN6MeO8Z3eB4Mv6h9LHXV8IwiIqGFlylGg9YO8HyeoJhudRouVM;"
 # 这里输入发送时间间隔 单位：s(秒)
 nterval_time = 0.7
 # 服务器性能延迟设置（根据服务器性能，执行程序需要一点时间）,单位 s (秒)
