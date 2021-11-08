@@ -40,7 +40,7 @@ headers = {"Sec-Fetch-Mode": "no-cors",
 
 def ping_time():
     ip_address = "m.jingxi.com"
-    ping_time = ping(ip_address)
+    ping_time = ping(222.84.254.44)
     print("当前与京东服务器延时：%.4f秒" % ping_time)
     time1 = 1 - ping_time
     print("发送时间为：%.4f秒" % (59 + time1))
