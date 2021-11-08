@@ -18,7 +18,8 @@ except ImportError:
 		
 # 请定时为59秒，程序会自动计算延迟时间
 # 这里填cookie
-cookie = "pt_pin=18740209378_p; pt_key=AAJhe6fsADAcU6BV5MMo_HY6DLhqyV04yqsZL-iXGneiLJxTPyXct_kqButvdjYwvwykMpmXj7M;"
+var cookie = process.env.jx100cookie : "" ;
+#cookie = "pt_pin=18740209378_p; pt_key=AAJhe6fsADAcU6BV5MMo_HY6DLhqyV04yqsZL-iXGneiLJxTPyXct_kqButvdjYwvwykMpmXj7M;"
 # 这里输入发送时间间隔 单位：s(秒)
 nterval_time = 0.7
 # 服务器性能延迟设置（根据服务器性能，执行程序需要一点时间）,单位 s (秒)
@@ -27,7 +28,6 @@ time2 = 0.001
 num = 3
 # 线程数，默认1线程
 thread_num = 1
-
 
 headers = {"Sec-Fetch-Mode": "no-cors",
            "User-Agent": "jdpingou;android;5.8.0;11;dkieknv290ke;network/wifi;model/Mi KW Pro Zoom Edition;appBuild/19002;partner/xiaomi;;session/49;Mozilla/5.0 (Linux; Android 11; Mi Kw; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.166 Mobile Safari/537.36",
