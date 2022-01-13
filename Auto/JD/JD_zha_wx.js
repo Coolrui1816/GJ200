@@ -2,8 +2,11 @@
   京东<集爆竹炸年兽>小程序任务
   需手动进入任务界面，注意脚本提醒
 
-  20220109 V1.3
-   by 嘉佳
+  Q：小程序脚本打开任务列表后识别不到任务
+  A：检查下自己手机有没有打开什么悬浮窗，比如autojs的悬浮球、录屏的悬浮窗之类的，关掉再试试
+
+  20220112 V1.7
+  尝试修复循环做同一任务的问题
  */
 Start();
 console.info("开始任务");
@@ -24,11 +27,11 @@ function Start() {
     threads.start(function () {
         var beginBtn;
         if (beginBtn = classNameContains("Button").textContains("立即开始").findOne(2000)) {
-            sleep(1000);
+            sleep(500);
             beginBtn.click();
         }
     });
-    sleep(1000);
+    sleep(500);
     if (!requestScreenCapture(false)) {
         console.log("请求截图失败");
         exit();
@@ -87,7 +90,12 @@ function Run(){
             item = item.parent().child(4);
             let b = item.bounds()
             let color = images.pixel(img, b.left+b.width()/8, b.top+b.height()/2)
-            if (colors.isSimilar(color, "#f75552",40,"diff")) {//如依然无法识别任务，可尝试继续调大第三个参数的识别范围，0~255之间，数字越大，匹配范围越大
+            console.info("识别任务<"+item.parent().child(1).text()+">中……");
+            console.error("识别任务状态("+colors.red(color)+","+colors.green(color)+","+colors.blue(color)+")");
+            if (colors.isSimilar(color, "#b5b5b5",40,"diff")) {
+                console.log("任务已完成，即将识别下一任务");
+            }
+            else{
                 //跳过任务
                 //if (taskText.match(/成功入会/)) continue
                 if (taskText.match(/成功入会/) && IsJoinMember == 0) {
@@ -132,6 +140,8 @@ function Run(){
         }
 
         function itemTask(cart) {
+            var boundsX = 0;
+            var boundsY = 0;
             taskButton.click();
             sleep(1000);
             console.log("等待进入商品列表……");
@@ -140,10 +150,14 @@ function Run(){
             for (let i = 0; i < 4; i++) {
                 if (cart) {
                     console.log("加购并浏览");
-                    items.parent().parent().child(2).child(i).child(4).click();
+                    boundsX = items.parent().parent().child(2).child(i).child(4).bounds().centerX();
+                    boundsY = items.parent().parent().child(2).child(i).child(4).bounds().centerY();
+                    click(boundsX,boundsY);
                 } else {
                     console.log("浏览商品页");
-                    items.parent().parent().child(2).child(i).child(4).click();
+                    boundsX = items.parent().parent().child(2).child(i).child(4).bounds().centerX();
+                    boundsY = items.parent().parent().child(2).child(i).child(4).bounds().centerY();
+                    click(boundsX,boundsY);
                 }
                 sleep(1000);
                 console.log("返回");
@@ -182,6 +196,7 @@ function Run(){
         back();
         sleep(1000);
         console.info("准备下一个任务");
+        sleep(1000);
     }
     console.log("小程序所有任务完成");
 }
